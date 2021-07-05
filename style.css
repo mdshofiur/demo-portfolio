@@ -55,7 +55,13 @@ button a{
 .dream-width img{
     width: 80%;
 }
-
+.section-experiance{
+    margin-bottom: 60px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-bottom: 50px;
+}
 .second-button{
     width: 40%;
     padding:12px;
@@ -70,9 +76,34 @@ button a{
 }
 
 .experiance-width{
-   width: 50%;
-    
+width:40%;
+box-shadow: 10px 10px 10px 10px gray;
+margin-left: 5%;
+margin-right: 5%;
+padding: 20px;
+
+
+
 }
+
 .h3-orange{
     color: orange;
+}
+
+.first-experiance-width{
+    border-left: 5px solid;
+    border-image: linear-gradient(orange,cyan);
+    border-image-slice: 1;
+    
+}
+
+.second-experiance-width{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+    
+}
+
+footer p{
+    text-align:center;
 }
